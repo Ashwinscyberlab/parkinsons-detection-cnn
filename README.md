@@ -23,3 +23,38 @@ The dataset used in this project contains medical or imaging data related to Par
 (You can add dataset link here if public)
 
 ## Project Structure
+
+Parkinson_Disease_Detection/
+│
+├── dataset/
+│   ├── training/
+│   │   ├── no/
+│   │   └── yes/
+│   ├── testing/
+│   │   ├── no/
+│   │   └── yes/
+│
+├── parkinsons_train.py        # CNN model training script
+├── predict_patient.py         # Predict single or batch patient reports
+├── parkinsons_cnn_brain.h5    # Saved trained model (after training)
+├── requirements.txt            # Dependencies
+└── README.md                   # Project documentation
+
+## Results
+- Achieved good accuracy in detecting Parkinson’s Disease
+- Model performance evaluated using metrics like accuracy, precision, recall
+
+## Future Improvements
+- Improve dataset size and diversity
+- Deploy as a web application
+- Integrate with real-time medical systems
+- Optimize model performance
+
+## Contributing
+Contributions are welcome. Feel free to fork the repo and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+Ashwin Yadav
